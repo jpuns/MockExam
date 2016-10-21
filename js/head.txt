@@ -1,0 +1,10 @@
+var Server = IgeClass.extend({
+	classId: 'Server',
+	Server: true,
+    
+	init: function (options) {
+		var self = this;
+        //console.log(options);
+        this.players = {};
+        this.waitroom = {};
+        //this.food = {};
